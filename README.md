@@ -20,7 +20,7 @@ Key Features:
 ✅ Modern GUI – User-friendly design with an attractive interface ✨
 ✅ No External Dependencies Required – Runs smoothly on Windows 🖥
 
-.exe file offers you service like as a application ,you just run without installing  python in your pc.
+The .exe file offers services like an application; you can run it without installing Python on your PC.
 How to Run .py files:-
 1️⃣ Open the Python file (.py)
 2️⃣ Run it in one click
