@@ -135,7 +135,6 @@ def split_pdf():
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {str(e)}")
 
-
 # Function to convert PDF to images
 def pdf_to_images():
     if not filename or not output_folder:
@@ -152,7 +151,6 @@ def pdf_to_images():
         messagebox.showinfo("Success", "PDF converted to images successfully.")
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {str(e)}")
-
 
 # Function to convert multiple images to a PDF
 def images_to_pdf():
@@ -181,14 +179,11 @@ def create_section(parent, title):
     frame.pack(fill=X, padx=15, pady=8)
     return frame
 
-
 # Output Folder Selection
 output_frame = create_section(scrollable_frame, "Output Folder")
 entry4 = Entry(output_frame, width=50)
 entry4.pack(side=LEFT, padx=5, pady=5)
 Button(output_frame, text="Browse", command=browse_output_folder, bg="#007BFF", fg="white").pack(side=RIGHT)
-
-
 
 # PDF Protection Section
 protect_frame = create_section(scrollable_frame, "Protect PDF")
@@ -201,14 +196,12 @@ entry5 = Entry(protect_frame, width=30, show="*")
 entry5.pack(pady=5)
 Button(protect_frame, text="Protect PDF", command=protect_pdf, bg="#DC3545", fg="white").pack(pady=5)
 
-
 # Merge PDFs Section
 merge_frame = create_section(scrollable_frame, "Merge PDFs")
 entry2 = Entry(merge_frame, width=50)
 entry2.pack(pady=5)
 Button(merge_frame, text="Browse PDFs", command=browse_multiple).pack()
 Button(merge_frame, text="Merge PDFs", command=merge_pdfs, bg="#17A2B8", fg="white").pack(pady=5)
-
 
 # Split PDF Section
 split_frame = create_section(scrollable_frame, "Split PDF")
@@ -217,17 +210,14 @@ entry3.pack(pady=5)
 Button(split_frame, text="Browse PDF", command=browse_split).pack()
 Button(split_frame, text="Split PDF", command=split_pdf, bg="#FFC107").pack(pady=5)
 
-
 # Convert PDF to Images Section
 pdf_to_img_frame = create_section(scrollable_frame, "Convert PDF to Images")
 Button(pdf_to_img_frame, text="Select PDF", command=browse, bg="#28A745", fg="white").pack(pady=5)
 Button(pdf_to_img_frame, text="Convert to Images", command=pdf_to_images, bg="#FFC107").pack(pady=5)
-
 
 # Convert Images to PDF Section
 img_to_pdf_frame = create_section(scrollable_frame, "Convert Images to PDF")
 Button(img_to_pdf_frame, text="Select Images", command=images_to_pdf, bg="#17A2B8", fg="white").pack(pady=5)
 
 
-# Run the application
 root.mainloop()
