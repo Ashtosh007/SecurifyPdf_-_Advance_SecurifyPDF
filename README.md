@@ -1,4 +1,4 @@
-SecurifyPDF & Advance_SecurifyPDF 🚀            ***GUI-based-Tool***
+SecurifyPDF & Advance_SecurifyPDF 🚀            ***GUI-based-Tool***.
 This project provides two powerful PDF security and management tools with one-click execution and a user-friendly GUI.
 
 Advance_SecurifyPDF.exe and  SecurifyPDF.exe file offers you service like as a application ,you just run without installing  python in your pc.
