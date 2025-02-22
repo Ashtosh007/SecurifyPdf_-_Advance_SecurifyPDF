@@ -21,8 +21,8 @@ Key Features:
 ✅ No External Dependencies Required – Runs smoothly on Windows 🖥
 
 The .exe file offers services like an application; you can run it without installing Python on your PC.
-How to Run .py files:-
-1️⃣ Open the Python file (.py)
+How to Run .exe files:-
+1️⃣ Open the Python file (.exe)
 2️⃣ Run it in one click
 3️⃣ Enjoy hassle-free PDF security & management! 🚀
 
